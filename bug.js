@@ -1,0 +1,2 @@
+function foo(a,b){return a+b;}console.log(foo(1, "1")); //Output: 11
+This is because of JavaScript's type coercion. When you add a number and a string, JavaScript converts the number to a string and then performs string concatenation instead of numerical addition.
